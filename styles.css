@@ -1,0 +1,90 @@
+/* Body styles */
+body {
+  background-color: #181c27;
+  color: #d1d1d1;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header styles */
+header {
+  background-color: #0a0e16;
+  color: #d1d1d1;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #d1d1d1;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #0a0e16;
+  color: #fff;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Button styles */
+button {
+  background-color: #0a0e16;
+  color: #d1d1d1;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #1e2130;
+}
+
+/* Footer styles */
+footer {
+  background-color: #0a0e16;
+  color: #d1d1d1;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+}
